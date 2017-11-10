@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:name=".MyApplication"
@@ -20,6 +21,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".MediaStoreCameraIntent">
+        </activity>
+        <activity android:name=".MyCamera">
+
+            <!-- android:configChanges="orientation"> -->
+        </activity>
+        <activity
+            android:name=".SnapShotActivity"
+            android:label="@string/title_activity_snap_shot"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".TimerSnapShotActivity">
         </activity>
     </application>
 

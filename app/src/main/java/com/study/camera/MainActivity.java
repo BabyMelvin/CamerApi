@@ -130,4 +130,17 @@ public class MainActivity extends AppCompatActivity {
     public void startContent(View view) {
         startActivity(new Intent(this,MediaStoreCameraIntent.class));
     }
+
+    public void startCamera(View view) {
+        Log.i(TAG, "startCamera: ");
+        startActivity(new Intent(this,MyCamera.class));
+    }
+
+    public void snapShot(View view) {
+        startActivity(new Intent(this,SnapShotActivity.class));
+    }
+
+    public void startTimerSnapShot(View view) {
+        startActivity(new Intent(this,TimerSnapShotActivity.class));
+    }
 }

@@ -11,6 +11,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.study.camera.MainActivity">
+    <Button
+        android:text="startTimerSnapShot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startTimerSnapShot"/>
+    <Button
+        android:id="@+id/snapShot"
+        android:text="snapShot"
+        android:onClick="snapShot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="startCamera"
+        android:onClick="startCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <Button
         android:layout_width="wrap_content"

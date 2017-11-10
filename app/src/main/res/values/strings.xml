@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Camera</string>
+    <string name="title_activity_snap_shot">SnapShotActivity</string>
 </resources>
